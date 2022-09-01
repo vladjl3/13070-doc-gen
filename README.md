@@ -1,2 +1,3 @@
-# 13070.kz
-Web-site for project organization - is engaged in the development of heat supply projects
+# 13070-doc-gen
+
+Python script for rendering .docx templates with dynamic data encloed in Jinja2 tags.
