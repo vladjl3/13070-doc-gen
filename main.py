@@ -1,46 +1,29 @@
-from docxtpl import DocxTemplate
 import json
 import os
+from create_document import create_document
 
+# Open dynamic data for render
+with open("dynamic_data.json") as dynamic_data_file:
+    dynamic_data = json.load(dynamic_data_file)
 
-def create_document(template_path: str, context: dict, folder: str, name: str):
-    """
-    Creates '.docx' document in path 'folder', with document name 'name', by template with jinja2 tags located in 'template_path'.
-    'context' parameter is the dict object, with key-value of jinja2 tags.
-
-    Args:
-        template_path (str): path of .docx template with jinja2 tags
-        context (dict): key-value dict of jinja2 tags
-        folder (str): path of destination folder
-        name (str): name of creating file
-    Return: None
-    """
-    tpl = DocxTemplate(template_path)
-    tpl.render(context)
-    tpl.save(folder + "/" + name + ".docx")
-
-
-# Open settings
-with open("settings.json") as json_file:
-    context_settings = json.load(json_file)
+# Open templates settings
+with open('templates_settings.json', 'r') as templates_settings_file:
+    templates_settings = json.load(templates_settings_file)
 
 # Constants
-TEMPLATES_DIRECTORY = context_settings['templates_directory']
-DESTINATION_DIRECTORY = context_settings['object_name']
+TEMPLATES_DIRECTORY = templates_settings['templates_directory']
+TEMPLATES_LIST = templates_settings['templates_list']
+DESTINATION_DIRECTORY = 'generated/' + dynamic_data['object_name']
 
 # Create destination directory
 try:
     print('Создаём директорию: ' + DESTINATION_DIRECTORY)
     os.mkdir(DESTINATION_DIRECTORY)
 except FileExistsError:
-    print('Директория ' + DESTINATION_DIRECTORY +  ' уже существует')
-
-# Open templates list
-with open('templates_list.json', 'r') as filehandle:
-    templates_list = json.load(filehandle)
+    print('Директория ' + DESTINATION_DIRECTORY + ' уже существует')
 
 # Main process
-for template in templates_list:
+for template in TEMPLATES_LIST:
     template_name = template[0]
     doc_name = template[1]
     doc_status = template[2]
@@ -50,7 +33,9 @@ for template in templates_list:
             if entry.path.endswith(".docx") and entry.is_file():
                 entry_name = os.path.splitext(entry.name)[0]
                 if template_name == entry_name:
-                    print("Файл шаблона " + template_name +
-                          " найден. Генерация...")
-                    create_document(entry.path, context_settings,
-                                    DESTINATION_DIRECTORY, doc_name)
+                    try:
+                        print("Файл шаблона найден. Генерация...")
+                        create_document(entry.path, dynamic_data,
+                                        DESTINATION_DIRECTORY, doc_name)
+                    except Exception as e:
+                        print(e)
