@@ -1,0 +1,8 @@
+{
+  "templates_directory": "templates",
+  "templates_list": [
+    ["01_heating_network_commision_review_act", "01_акт_комиссионного_обследования_сети", 1],
+    ["02_doc", "02_документ", 0],
+    ["03_doc", "03_документ", 0]
+  ]
+}

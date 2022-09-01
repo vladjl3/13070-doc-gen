@@ -1,0 +1,16 @@
+{
+  "year": "2022",
+  "object_name": "Частный жилой дом по ул. Зыряновская, 91",
+  "object_address": "ул. Зыряновская, 91",
+  "phn_region": "ЮСР",
+  "phn_region_chief": "Кондратюк В.В.",
+  "phn_deputy_chief_engineer": "Плетухов П.В.",
+  "phn_region_lead_engineer": "Кокряцкий Е.В.",
+  "customer_representative": "Петрик О.С.",
+  "heating_network": "Ø 38х3,0-ППУ-ПЭ",
+  "heating_network_length": "68,4 м",
+  "from": "сущ. т/сети между НО-16/17 и НО-16/23, от УТ1 (проектир.)",
+  "to": "ТУ жилого дома Зыряновская, 91",
+  "technical_conditions": "№ ТУ-22-2021-00091 от 26.02.2021 г",
+  "heating_season": "2021-2022"
+}
