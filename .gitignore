@@ -14,5 +14,6 @@
 # MacOS
 *.DS_Store
 
-# Generated output
+# Project needs
 generated/*
+__pycache__/*

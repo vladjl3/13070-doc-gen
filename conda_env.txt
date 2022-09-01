@@ -13,10 +13,12 @@ cffi=1.15.1=py38hc55c11b_0
 docxcompose=1.3.3=pypi_0
 docxtpl=0.12.0=pypi_0
 eel=0.12.4=pypi_0
+flake8=4.0.1=pyhd3eb1b0_1
 future=0.18.2=pypi_0
 gevent=21.8.0=py38h9ed2024_1
 gevent-websocket=0.10.1=py38hecd8cb5_1
 greenlet=1.1.1=py38h23ab428_0
+importlib-metadata=4.11.3=py38hecd8cb5_0
 jinja2=3.0.1=pypi_0
 libcxx=12.0.0=h2f01273_0
 libev=4.33=h9ed2024_1
@@ -25,11 +27,13 @@ libuv=1.40.0=haf1e3a3_0
 lxml=4.6.3=pypi_0
 macholib=1.15.2=pypi_0
 markupsafe=2.0.1=pypi_0
+mccabe=0.7.0=pyhd3eb1b0_0
 ncurses=6.3=hca72f7f_3
 openssl=1.1.1q=hca72f7f_0
 pip=22.1.2=py38hecd8cb5_0
 pycodestyle=2.7.0=pypi_0
 pycparser=2.21=pyhd3eb1b0_0
+pyflakes=2.4.0=pyhd3eb1b0_0
 pyinstaller=4.5.1=pypi_0
 pyinstaller-hooks-contrib=2021.3=pypi_0
 python=3.8.13=hdfd78df_0
@@ -43,6 +47,7 @@ toml=0.10.2=pypi_0
 wheel=0.37.1=pyhd3eb1b0_0
 whichcraft=0.6.1=pypi_0
 xz=5.2.5=hca72f7f_1
+zipp=3.8.0=py38hecd8cb5_0
 zlib=1.2.12=h4dc903c_2
 zope=1.0=py38_1
 zope.event=4.5.0=py38_0
