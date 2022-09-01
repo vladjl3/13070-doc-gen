@@ -47,6 +47,7 @@
   "hot_water_heaters": "пластинчатый теплообменник",
   "number_sealing_inlet_valves": "_____________________",
   "valve_diameter": "38",
+  "gasket_construction_drawing": "2, 3, 4",
 
   "_comment3": "Проектные данные присоединенных установок",
   "heating_gcal_hour": "0,0133",
