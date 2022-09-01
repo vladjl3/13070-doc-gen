@@ -1,0 +1,28 @@
+altgraph==0.17.2
+auto-py-to-exe==2.10.0
+autopep8==1.5.7
+bottle==0.12.19
+bottle-websocket==0.2.9
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_83242e7e-f82d-4a71-8ef2-9d71d212d249gu_wxmeq/croots/recipe/certifi_1655968827803/work/certifi
+cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_62rp5d8fd4/croots/recipe/cffi_1659598655556/work
+docxcompose==1.3.3
+docxtpl==0.12.0
+Eel==0.12.4
+future==0.18.2
+gevent @ file:///opt/concourse/worker/volumes/live/1d9b33f6-f02f-40eb-609e-60bcb3f0d9c6/volume/gevent_1628273691386/work
+gevent-websocket @ file:///opt/concourse/worker/volumes/live/ea4c7444-afd7-4605-51be-025dfd75da09/volume/gevent-websocket_1614094038958/work
+greenlet @ file:///opt/concourse/worker/volumes/live/95ce977d-8383-4e59-44f1-32af4c61496e/volume/greenlet_1628888142951/work
+Jinja2==3.0.1
+lxml==4.6.3
+macholib==1.15.2
+MarkupSafe==2.0.1
+pycodestyle==2.7.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyinstaller==4.5.1
+pyinstaller-hooks-contrib==2021.3
+python-docx==0.8.11
+six==1.16.0
+toml==0.10.2
+whichcraft==0.6.1
+zope.event==4.5.0
+zope.interface @ file:///opt/concourse/worker/volumes/live/c276dde8-3639-4094-58c5-966878d97687/volume/zope.interface_1625036167044/work
