@@ -28,6 +28,7 @@
   "_comment2": "Данные по тепловой сети",
   "network_type": "водяное",
   "heating_network_general_length": "68,4 м",
+  "heating_network_pf_length": "68,4 м",
   "heating_network_length_includes": "подземная 68,4 м",
   "pipe_diameter_feed": "38",
   "pipe_diameter_return": "38",
@@ -54,5 +55,22 @@
   "heating_gcal_year": "116,508",
   "hot_water_gcal_hour": "0,0092",
   "hot_water_gcal_year": "80,592",
-  "gcal_total": "0,0225"
+  "gcal_total": "0,0225",
+
+  "compensators": [
+    {
+      "number": "K1",
+      "drawing": "9",
+      "type": "П-образный",
+      "project_stretching": "54,4 мм",
+      "fact_stretching": "54,4 мм"
+    },
+    {
+      "number": "K2",
+      "drawing": "21",
+      "type": "П-образный",
+      "project_stretching": "54,4 мм",
+      "fact_stretching": "54,4 мм"
+    }
+  ]
 }
