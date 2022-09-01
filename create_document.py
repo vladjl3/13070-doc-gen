@@ -17,4 +17,4 @@ def create_document(template_path: str, context: dict, folder: str, name: str):
     tpl = DocxTemplate(template_path)
     tpl.render(context)
     tpl.save(folder + "/" + name + ".docx")
-    print(name + " успешно сгенерирован.")
+    print("✅" + name + " успешно сгенерирован.")

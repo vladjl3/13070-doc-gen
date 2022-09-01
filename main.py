@@ -38,4 +38,4 @@ for template in TEMPLATES_LIST:
                         create_document(entry.path, dynamic_data,
                                         DESTINATION_DIRECTORY, doc_name)
                     except Exception as e:
-                        print(e)
+                        print("❌", e)
