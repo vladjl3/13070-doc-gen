@@ -2,7 +2,11 @@
   "templates_directory": "templates",
   "templates_list": [
     ["01_heating_network_commision_review_act", "01_акт_комиссионного_обследования_сети", 1],
-    ["02_doc", "02_документ", 0],
+    [
+      "02_readiness_for_operation_of_the_consumer_branch_and_the_heat_point_act",
+      "02_акт_о_готовности_к_постоянной_эксплуатации_ответвления_потребителя_и_теплового_пункта",
+      1
+    ],
     ["03_doc", "03_документ", 0]
   ]
 }
