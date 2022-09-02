@@ -1,77 +1,111 @@
 {
   "templates_directory": "templates",
   "templates_list": [
-    ["01_heating_network_commision_review_act", "01_акт_комиссионного_обследования_сети", 1],
-    [
-      "02_readiness_for_operation_of_the_consumer_branch_and_the_heat_point_act",
-      "02_акт_о_готовности_к_постоянной_эксплуатации_ответвления_потребителя_и_теплового_пункта",
-      1
-    ],
-    [
-      "03_heating_pipeline_commission_review_act",
-      "03_акт_о_приемке_в_эксплуатацию_теплопровода",
-      1
-    ],
-    ["04_heating_network_passport", "04_паспорт_тепловой_сети", 1],
-    [
-      "05_hidden_work_act_heating_pipeline_construction",
-      "05_акт_на_скрытые_работы_при_укладке_трубопроводов_тепловой_сети",
-      1
-    ],
-    [
-      "06_hidden_work_act_sandy_base_for_pipelines_PF",
-      "06_акт_на_скрытые_работы_устройство_песчаного_основания_под_трубопроводы_с_ППУ_изоляцией",
-      1
-    ],
-    [
-      "07_hidden_work_act_inspection_of_welded_joints",
-      "07_акт_на_скрытые_работы_внешний_осмотр_сварочных_стыков",
-      1
-    ],
-    [
-      "08_hidden_work_act_for_hydraulic_testing_and_filling_of_couplings",
-      "08_акт_на_скрытые_работы_гидр_испытания_и_компонентная_заливка_муфт_соединительных_ППУ",
-      1
-    ],
-    ["09_flushing_purging_pipelines_act", "09_акт_на_промывку_продувку_трубопроводов", 1],
-    [
-      "10_flushing_purging_the_heating_unit_and_internal_system_act",
-      "10_акт_на_промывку_продувку_теплового_узла_и_внутренней_системы_отопления",
-      1
-    ],
-    [
-      "11_hydraulic_tests_heating_unit_and_the_internal_system_act",
-      "11_акт_на_гидравлические_испытания_теплового_узла_и_внутренней_системы_отопления",
-      1
-    ],
-    ["12_hydraulic_tests_pipelines_act", "12_акт_на_гидравлические_испытания_трубопроводов", 1],
-    [
-      "13_hidden_work_act_strength_and_density_of_weld_joints_of_PE_shell",
-      "13_акт_на_скрытые_работы_рочность_плотность_сварных_соединений_ПЭ_оболочки",
-      1
-    ],
-    [
-      "14_1_hidden_work_act_heating_cameras_new",
-      "14_1_акт_на_скрытые_работы_тепловая_камера_новая",
-      1
-    ],
-    [
-      "14_2_hidden_work_act_heating_cameras_existing",
-      "14_2_акт_на_скрытые_работы_тепловая_камера_существующая",
-      1
-    ],
-    ["15_act_for_stretching_compensators", "15_акт_о_растяжке_компенсаторов", 1],
-    [
-      "16_hidden_work_act_pipeline_supports_installation",
-      "16_акт_на_скрытые_работы_по_устройству_скользящих_опор_на_трубопроводах",
-      1
-    ],
-    [
-      "17_hydraulic_tests_heat_exchanger_act",
-      "17_акт_на_на_гидравлические_испытания_теплообменника_ГВС",
-      1
-    ],
-    ["заявление_на_АРБП_перечень_доков", "заявление_на_АРБП_перечень_доков", 1],
-    ["заявление_на_врезку_физ_лицо", "заявление_на_врезку_физ_лицо", 1]
+    {
+      "input_name": "01_heating_network_commision_review_act",
+      "output_name": "01_акт_комиссионного_обследования_сети",
+      "enabled": 1
+    },
+    {
+      "input_name": "02_readiness_for_operation_of_the_consumer_branch_and_the_heat_point_act",
+      "output_name": "02_акт_о_готовности_к_постоянной_эксплуатации_ответвления_потребителя_и_теплового_пункта",
+      "enabled": 1
+    },
+
+    {
+      "input_name": "03_heating_pipeline_commission_review_act",
+      "output_name": "03_акт_о_приемке_в_эксплуатацию_теплопровода",
+      "enabled": 1
+    },
+    {
+      "input_name": "04_heating_network_passport",
+      "output_name": "04_паспорт_тепловой_сети",
+      "enabled": 1
+    },
+    {
+      "input_name": "05_hidden_work_act_heating_pipeline_construction",
+      "output_name": "05_акт_на_скрытые_работы_при_укладке_трубопроводов_тепловой_сети",
+      "enabled": 1
+    },
+    {
+      "input_name": "06_hidden_work_act_sandy_base_for_pipelines_PF",
+      "output_name": "06_акт_на_скрытые_работы_устройство_песчаного_основания_под_трубопроводы_с_ППУ_изоляцией",
+      "enabled": 1
+    },
+    {
+      "input_name": "07_hidden_work_act_inspection_of_welded_joints",
+      "output_name": "07_акт_на_скрытые_работы_внешний_осмотр_сварочных_стыков",
+      "enabled": 1
+    },
+    {
+      "input_name": "07_hidden_work_act_inspection_of_welded_joints",
+      "output_name": "07_акт_на_скрытые_работы_внешний_осмотр_сварочных_стыков",
+      "enabled": 1
+    },
+    {
+      "input_name": "08_hidden_work_act_for_hydraulic_testing_and_filling_of_couplings",
+      "output_name": "08_акт_на_скрытые_работы_гидр_испытания_и_компонентная_заливка_муфт_соединительных_ППУ",
+      "enabled": 1
+    },
+    {
+      "input_name": "09_flushing_purging_pipelines_act",
+      "output_name": "09_акт_на_промывку_продувку_трубопроводов",
+      "enabled": 1
+    },
+    {
+      "input_name": "10_flushing_purging_the_heating_unit_and_internal_system_act",
+      "output_name": "10_акт_на_промывку_продувку_теплового_узла_и_внутренней_системы_отопления",
+      "enabled": 1
+    },
+    {
+      "input_name": "11_hydraulic_tests_heating_unit_and_the_internal_system_act",
+      "output_name": "11_акт_на_гидравлические_испытания_теплового_узла_и_внутренней_системы_отопления",
+      "enabled": 1
+    },
+    {
+      "input_name": "12_hydraulic_tests_pipelines_act",
+      "output_name": "12_акт_на_гидравлические_испытания_трубопроводов",
+      "enabled": 1
+    },
+    {
+      "input_name": "13_hidden_work_act_strength_and_density_of_weld_joints_of_PE_shell",
+      "output_name": "13_акт_на_скрытые_работы_рочность_плотность_сварных_соединений_ПЭ_оболочки",
+      "enabled": 1
+    },
+    {
+      "input_name": "14_1_hidden_work_act_heating_cameras_new",
+      "output_name": "14_1_акт_на_скрытые_работы_тепловая_камера_новая",
+      "enabled": 1
+    },
+    {
+      "input_name": "14_2_hidden_work_act_heating_cameras_existing",
+      "output_name": "14_2_акт_на_скрытые_работы_тепловая_камера_существующая",
+      "enabled": 1
+    },
+    {
+      "input_name": "15_act_for_stretching_compensators",
+      "output_name": "15_акт_о_растяжке_компенсаторов",
+      "enabled": 1
+    },
+    {
+      "input_name": "16_hidden_work_act_pipeline_supports_installation",
+      "output_name": "16_акт_на_скрытые_работы_по_устройству_скользящих_опор_на_трубопроводах",
+      "enabled": 1
+    },
+    {
+      "input_name": "17_hydraulic_tests_heat_exchanger_act",
+      "output_name": "17_акт_на_на_гидравлические_испытания_теплообменника_ГВС",
+      "enabled": 1
+    },
+    {
+      "input_name": "заявление_на_АРБП_перечень_доков",
+      "output_name": "заявление_на_АРБП_перечень_доков",
+      "enabled": 1
+    },
+    {
+      "input_name": "заявление_на_врезку_физ_лицо",
+      "output_name": "заявление_на_врезку_физ_лицо",
+      "enabled": 1
+    }
   ]
 }

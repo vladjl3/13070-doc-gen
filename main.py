@@ -22,20 +22,15 @@ try:
 except FileExistsError:
     print('Директория ' + DESTINATION_DIRECTORY + ' уже существует')
 
+enabled_templates_list = [template for template in TEMPLATES_LIST if template['enabled']]
+
 # Main process
-for template in TEMPLATES_LIST:
-    template_name = template[0]
-    doc_name = template[1]
-    doc_status = template[2]
-    if doc_status == 1:
-        print("Шаблон " + template_name + " включен. Поиск файла...")
-        for entry in os.scandir(TEMPLATES_DIRECTORY):
-            if entry.path.endswith(".docx") and entry.is_file():
-                entry_name = os.path.splitext(entry.name)[0]
-                if template_name == entry_name:
-                    try:
-                        print("Файл шаблона найден. Генерация...")
-                        create_document(entry.path, dynamic_data,
-                                        DESTINATION_DIRECTORY, doc_name)
-                    except Exception as e:
-                        print("❌", e)
+for template in enabled_templates_list:
+    template_name = template['input_name']
+    doc_name = template['output_name']
+    template_path = TEMPLATES_DIRECTORY + "/" + template_name + ".docx"
+    try:
+        create_document(template_path, dynamic_data,
+                        DESTINATION_DIRECTORY, doc_name)
+    except Exception as e:
+        print("❌", e)
