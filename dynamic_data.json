@@ -17,13 +17,17 @@
   "from": "сущ. т/сети между НО-16/17 и НО-16/23, от УТ1 (проектир.)",
   "to": "ТУ жилого дома Зыряновская, 91",
   "from_camera": "сущ. т/сети между НО-16/17 и НО-16/23, от УТ1 (проектир.)",
+  "camera_existing": "УТ1",
+  "camera_existing_drawing": "5",
+  "camera_new": "УТ1",
+  "camera_new_drawing": "5",
   "heating_season": "2021-2022",
   "technical_conditions": "№ ТУ-22-2021-00091 от 26.02.2021 г.",
   "project_number": "№ 11/21-ТС",
-  "construction_organization": "ТОО «OVGroup»",
-  "construction_organization_chief": "Гусельников О.Н.",
   "project_organization": "ТОО «OVGroup»",
   "project_organization_chief": "Гусельников О.Н.",
+  "construction_organization": "ТОО «OVGroup»",
+  "construction_organization_chief": "Гусельников О.Н.",
 
   "_comment2": "Данные по тепловой сети",
   "network_type": "водяное",
@@ -57,6 +61,7 @@
   "hot_water_gcal_year": "80,592",
   "gcal_total": "0,0225",
 
+  "_comment4": "Компенсаторы",
   "compensators": [
     {
       "number": "K1",
