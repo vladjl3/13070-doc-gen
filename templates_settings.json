@@ -54,6 +54,17 @@
       "14_1_hidden_work_act_heating_cameras_new",
       "14_1_акт_на_скрытые_работы_тепловая_камера_новая",
       1
+    ],
+    [
+      "14_2_hidden_work_act_heating_cameras_existing",
+      "14_2_акт_на_скрытые_работы_тепловая_камера_существующая",
+      1
+    ],
+    ["15_act_for_stretching_compensators", "15_акт_о_растяжке_компенсаторов", 1],
+    [
+      "16_hidden_work_act_pipeline_supports_installation",
+      "16_акт_на_скрытые_работы_по_устройству_скользящих_опор_на_трубопроводах",
+      1
     ]
   ]
 }
